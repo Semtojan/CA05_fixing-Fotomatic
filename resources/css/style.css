@@ -214,6 +214,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    padding: 0;
   }
 
   #sign-up-cta .content {
@@ -420,8 +421,9 @@ header .mobile {
 }
 
 #quotes-section .content {
-  padding: 5rem 0;
+  padding: 5rem 2rem;
   display: flex;
+  justify-content: center;
 }
 
 #quotes-section .quote {
@@ -440,7 +442,7 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
   #quotes-section .content {
-    padding: 1.875rem .625rem;
+    padding: 1.875rem 2rem;
   }
 
   #quotes-section .quote {
